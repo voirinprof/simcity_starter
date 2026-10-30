@@ -1,0 +1,34 @@
+# --- Données ---------------------------------------------------------------
+# Les données sources (OSM, Référentiel bâtiment, LiDAR, MNT, orthophotos…)
+# ne sont pas versionnées : elles sont volumineuses et soumises à la licence
+# de leur fournisseur. Chacun les télécharge depuis la source officielle.
+/data/
+# GeoJSON dérivés générés par export.py pour la scène 3D
+quartier-threejs/data/
+
+# Formats géomatiques lourds, où qu'ils soient
+*.laz
+*.las
+*.tif
+*.tiff
+*.gpkg
+
+# --- Résultats générés par les scripts --------------------------------------
+/*.png
+
+# --- Cache OSMnx -------------------------------------------------------------
+cache/
+
+# --- Python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- Éditeurs et système -----------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

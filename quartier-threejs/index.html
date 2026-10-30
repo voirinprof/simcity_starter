@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mon quartier 3D</title>
+  <style>body { margin: 0; overflow: hidden; font-family: sans-serif; } #titre { position: absolute; top: 15px; left: 15px; z-index: 1; padding: 12px; background: #ffffffd9; border-radius: 8px; }</style>
+</head>
+<body>
+  <div id="titre">Mon quartier 3D — souris : tourner / zoomer</div>
+  <script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+  }
+}
+</script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
